@@ -1,0 +1,33 @@
+<table id="empTable">
+    <tr>
+      <th>Emp ID</th>
+      <th>Emp Name</th>
+      <th>Emp Designation</th>
+      <th>Project</th>
+    </tr>
+    <!-- <ng-container *ngFor="let item of employees.employees" > -->
+
+
+
+        <ng-container *ngFor="let item of employees" >
+       
+    <!-- <ng-container *ngFor="let project of employeeProject.employeeProject ">  -->
+        <tr>
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>Germany</td>
+      <td>
+        <!-- <ng-container *ngIf="item.id===project.empId"> -->
+        <!-- <span>{{project.empId}}</span>  -->
+    <!-- </ng-container> -->
+    
+    
+    </td>
+    </tr>
+
+   <!-- </ng-container> -->
+
+
+</ng-container>
+    
+  </table>
